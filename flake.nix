@@ -12,11 +12,9 @@
 
     nixvim.url = "github:nix-community/nixvim";
     nixvim.inputs.nixpkgs.follows = "nixpkgs";
-
-    nixvim-flake.url = "github:YugalKhanal/nixvim-flake";
   };
 
-  outputs = inputs@{ self, nixpkgs, nix-darwin, home-manager, nixvim, nixvim-flake, ... }:
+  outputs = inputs@{ self, nixpkgs, nix-darwin, home-manager, nixvim, ... }:
   let
     configuration = import ./configuration.nix;
   in
@@ -35,12 +33,11 @@
           home-manager.useGlobalPkgs = true;
           home-manager.useUserPackages = true;
 
-	  home-manager.users.yugalkhanal = import ./home.nix;
+	        home-manager.users.yugalkhanal = import ./home.nix;
 
           home-manager.sharedModules = [
             nixvim.homeModules.nixvim 
-            
-            nixvim-flake.homeModules.nixvim
+            ./nixvim
             
             (import ./home.nix)
           ];

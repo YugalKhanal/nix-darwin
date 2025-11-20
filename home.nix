@@ -15,5 +15,5 @@
 
   programs.home-manager.enable = true;
   # programs.neovim.enable = true;
-  programs.nixvim.enable = true;
+  #programs.nixvim.enable = true;
 }
