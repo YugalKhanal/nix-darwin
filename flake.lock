@@ -204,11 +204,11 @@
         "nixpkgs": "nixpkgs_3"
       },
       "locked": {
-        "lastModified": 1763661158,
-        "narHash": "sha256-ZDcU7+kD0SLEYmKwf0osrbYlxg8mrtgbHrUMaSdDfc4=",
+        "lastModified": 1763663012,
+        "narHash": "sha256-7kuMHQfCH8BFXO+ZYhfFLvWKZosmcZmsJhWALCehaXI=",
         "owner": "YugalKhanal",
         "repo": "nixvim-flake",
-        "rev": "22c404ddf5fd4b826118cdc88b9db27c59ebbb5c",
+        "rev": "3eacd7790d5ca401e2c111e8759a29ce9853797a",
         "type": "github"
       },
       "original": {
