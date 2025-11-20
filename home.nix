@@ -9,7 +9,8 @@
     EDITOR = "Neovim";
   };
 
-  home.packages = [ pkgs.vimPlugins.nvim-web-devicons ];
+  home.packages = [
+  ];
 
 
   programs.home-manager.enable = true;
