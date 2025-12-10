@@ -39,6 +39,7 @@
             };
             ruff.enable = true;
             texlab.enable = true;
+            elixirls.enable = true;
           };
 
           # LSP-related keymaps

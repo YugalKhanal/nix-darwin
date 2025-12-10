@@ -3,15 +3,17 @@
     config = {
       plugins.nvim-tree = {
         enable = true;
-        filters = {
-          dotfiles = false;
-        };
-        git = {
-          enable = true;
-          ignore = false;
-        };
-        view = {
-          side = "left";
+        settings = {
+          filters = {
+            dotfiles = false;
+          };
+          git = {
+            enable = true;
+            ignore = false;
+          };
+          view = {
+            side = "left";
+          };
         };
       };
 

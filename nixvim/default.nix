@@ -1,6 +1,7 @@
 {
   imports = [
     ./aerials.nix
+    ./autopairs.nix
     ./bufferline.nix
     ./comment.nix
     ./completions.nix
